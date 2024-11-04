@@ -1,0 +1,44 @@
+.logo {
+    width: 7rem;
+}
+.btn-dark {
+    background-color: #FED41D;
+    color: black;
+    text-transform: uppercase;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.btn-dark:hover {
+    background-color: #FED41D;
+    color: black;
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px #FED41D;
+}
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px #FED41D;
+}
+.card-body {
+    padding: 0;
+}
+* {
+    font-family: "Swanky and Moo Moo", cursive;
+    font-weight: 700;
+}
+h1 {
+    font-weight: bolder;
+    text-align: center;
+}
+.card-title {
+    font-weight: 900;
+}
+.card-text {
+    text-transform: uppercase;
+}
+@media (min-width: 768px) {
+    .custom-column-gap {
+        column-gap: 3rem;
+    }
+}
